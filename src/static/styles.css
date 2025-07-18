@@ -71,44 +71,57 @@ section h3 {
 }
 
 .activity-card p {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
+  line-height: 1.5;
 }
 
 .activity-card ul {
   list-style-type: disc;
-  padding-left: 15px;
-  margin: 6px 6px;
+  padding-left: 20px;
+  margin: 8px 0;
 }
 
 .activity-card li {
-  margin: 5px 0;
-  color: #555;
-  font-size: 0.95em;
+  margin: 8px 0;
+  color: #333;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 .activity-card strong {
   color: #1a237e;
-  display: block;
-  margin-top: 10px;
+  display: inline-block;
+  margin-top: 12px;
+  margin-bottom: 4px;
 }
 
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .form-group label {
-  display: block;
-  margin-bottom: 5px;
+  display: inline-block;
+  margin-bottom: 8px;
   font-weight: bold;
+  color: #333;
 }
 
 .form-group input,
 .form-group select {
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
+  padding: 12px;
+  border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
+  line-height: 1.4;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #1a237e;
+  box-shadow: 0 0 0 2px rgba(26, 35, 126, 0.1);
 }
 
 button {
