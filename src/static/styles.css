@@ -1,3 +1,12 @@
+/*
+ * Participant Info:
+ * Author: [Please insert author name]
+ * Date: [Please insert date]
+ * 
+ * Description:
+ * [Please insert a brief description of what the code does.]
+ */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -71,26 +80,57 @@ section h3 {
 }
 
 .activity-card p {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.activity-card ul {
+  list-style-type: disc;
+  padding-left: 18px;
+  margin: 8px 0;
+}
+
+.activity-card li {
+  margin: 8px 0;
+  color: #333;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.activity-card strong {
+  color: #1a237e;
+  display: inline-block;
+  margin-top: 12px;
+  margin-bottom: 4px;
 }
 
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .form-group label {
-  display: block;
-  margin-bottom: 5px;
+  display: inline-block;
+  margin-bottom: 8px;
   font-weight: bold;
+  color: #333;
 }
 
 .form-group input,
 .form-group select {
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
+  padding: 12px;
+  border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
+  line-height: 1.4;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #1a237e;
+  box-shadow: 0 0 0 2px rgba(26, 35, 126, 0.1);
 }
 
 button {
